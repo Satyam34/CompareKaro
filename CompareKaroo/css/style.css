@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+img{
+    width: 100%;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/* Navbar */
+.top-nav{
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 85px;
+    margin-left: 15px;
+}
+.top-nav p:hover{
+       color: red;
+}
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+}
+.navbar .navbar-nav .navbar-link:hover,
+.navbar .navbar-nav .navbar-link.active{
+    color: aquamarine;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+}
+.navbar-brand span{
+        color: lightskyblue;
+}
+
+
+/* Btn */
+
+.btn{
+    padding: auto;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+.btn-brand:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+
+/* Landing page */
+.img1 {
+    background-image: linear-gradient( rgba(9, 32,50,0.4), rgba(9, 32, 50, 0.4)), url(../photos/books2.jpg);
+    size: 700px 500px;
+    background-blend-mode: color-burn;
+}
+
+.header{
+   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h1{
+    margin-top: 10vh;
+    align-items: center;
+    color: white;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+.topic{
+    color: #adb5bd;
+}
+.text-right{
+    color: #adb5bd;
+}
+.footer .TC{
+    color: white;
+}
